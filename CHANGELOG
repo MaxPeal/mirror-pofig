@@ -1,0 +1,64 @@
+pofig v0.9.7  01 Jun 2017:
+  * split syscap on pofig, excom and all C/C++ related went to cstem/cstem+
+  * refactored many other parts
+
+pofig v0.9.9  05 Jun 2017:
+  * added debian support
+  * added -help-props parameter
+
+pofig v1.0
+  * fixed OS detection algorithm
+  * fixed linux OS detection
+  * added Red Hat support
+
+pofig v1.1
+  * added Devuan Linux detection
+  * added Suse Linux Enterprise detection
+  * added Fedora Linux detection
+  * added OpenSUSE detection
+  * added Ubuntu detection
+  * updated support of Gentoo
+  * added Slackware detection
+  * added Arch Linux detection
+  * updated support of NetBSD
+  * updated support of OpenBSD
+  * updated support of DragonFly BSD
+  * minor fixes for compatibility with older sh
+  * highly improved arch detection
+  * updated support of FreeBSD
+  * portability feature: jump on modern shell when script runs under old /bin/sh that misses many standard features
+  * portability fixes for QNX /bin/sh
+  * updated support of MirOS
+  * updated support of Minix
+  * changed MinGW on Msys
+  * updated support of Msys
+  * changed output format
+  * updated support of IRIX
+  * removed Interix support
+  * updated support of HP-UX
+  * removed Darwin OS
+  * updated support of Cygwin
+  * removed Bitrig support
+  * removed AROS support
+  * removed AmigaOS support
+  * added support of Apple macOS
+  * removed kernel property as redundant
+
+pofig v1.2
+  * added better support of Minix
+  * added better support of older Shells
+  * fixed solaris version detection
+  * added support of SCO UNIX
+  * added support of UnixWare
+  * added support of GNU Hurd
+  * improved debian version detection
+  * fixed arch detection on macos
+
+pofig v1.3
+  * added support of Pidora Linux
+  * added support of Tru64 UNIX
+
+pofig v1.4
+  * removed support of OS: VMWare ESXi, Haiku, LynxOS, MKS Toolkit, MorphOS, Try64 UNIX, IBM z/VM
+  * removed support of architectures: ARC, Atmel AVR, ETRAX CRIS, Fujitsu FR-V, Qualcomm Hexagon, M32R, OpenRISC 1000, SuperH, Tilera Tile, Tensilica Xtensa, IBM z/Architecture
+
