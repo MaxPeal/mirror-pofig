@@ -1,0 +1,23 @@
+pofig - Portable Figure Out system properties
+
+This scripts probes the following system parameters:
+    OS
+    OS version
+    kernel version
+    distro
+    distro version
+    architecture
+
+# Example. Get all system properties in long listing format:
+$ pofig -l
+OS                gnulinux
+OS Version        unknown
+Kernel version    3.16.0
+Distro            Debian
+Distro version    8.7
+Arch              x86_64
+
+# Example. Get operating system name:
+$ pofig -os
+gnulinux
+
