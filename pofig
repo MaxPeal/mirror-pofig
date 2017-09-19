@@ -128,9 +128,6 @@ POFIG_BASH_REDIRECTED=
 export POFIG_BASH_REDIRECTED
 ################################################################################
 
-
-version_string="pofig 1.4"
-
 print_help() {
 cat <<EOF
 Portable figure out system properties
@@ -145,8 +142,8 @@ $script_name [OPTIONS]
  -arch        print architecture
  -id          print system id
  -l           long listing format
- -v           print version
- -hprops      print a detailed list of properties
+ -v           display version information and exit
+ -hprops      display a detailed list of properties
 EOF
 }
 
@@ -207,7 +204,10 @@ EOF
 }
 
 print_version() {
-  echo "$version_string"
+  cat <<EOF
+pofig 1.4
+Copyright (C) 2015-2017 Oleksii Cherniavskyi
+EOF
 }
 
 gen_system_id() {
@@ -792,7 +792,7 @@ for arg in "$@"; do
       print_help_props
       exit 0
       ;;
-    -v)
+    -v|--version)
       print_version
       exit 0
       ;;
