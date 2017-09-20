@@ -205,7 +205,7 @@ EOF
 
 print_version() {
   cat <<EOF
-pofig 1.4
+pofig 1.4.1
 Copyright (C) 2015-2017 Oleksii Cherniavskyi
 EOF
 }
