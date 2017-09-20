@@ -59,9 +59,12 @@ pofig 1.3
   * added support of Tru64 UNIX
 
 pofig 1.4
-  * removed support of OS: VMWare ESXi, Haiku, LynxOS, MKS Toolkit, MorphOS, Try64 UNIX, IBM z/VM
+  * removed support of OS: VMWare ESXi, Haiku, LynxOS, MKS Toolkit, MorphOS, Tru64 UNIX, IBM z/VM
   * removed support of architectures: ARC, Atmel AVR, ETRAX CRIS, Fujitsu FR-V, Qualcomm Hexagon, M32R, OpenRISC 1000, SuperH, Tilera Tile, Tensilica Xtensa, IBM z/Architecture
 
 pofig 1.4.1
   * minor changes in help and version output
+
+pofig 1.5
+  * pofig: added short option interface
 
