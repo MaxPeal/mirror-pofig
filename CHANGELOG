@@ -1,17 +1,17 @@
-pofig v0.9.7  01 Jun 2017:
+pofig 0.9.7  01 Jun 2017:
   * split syscap on pofig, excom and all C/C++ related went to cstem/cstem+
   * refactored many other parts
 
-pofig v0.9.9  05 Jun 2017:
+pofig 0.9.9  05 Jun 2017:
   * added debian support
   * added -help-props parameter
 
-pofig v1.0
+pofig 1.0
   * fixed OS detection algorithm
   * fixed linux OS detection
   * added Red Hat support
 
-pofig v1.1
+pofig 1.1
   * added Devuan Linux detection
   * added Suse Linux Enterprise detection
   * added Fedora Linux detection
@@ -44,7 +44,7 @@ pofig v1.1
   * added support of Apple macOS
   * removed kernel property as redundant
 
-pofig v1.2
+pofig 1.2
   * added better support of Minix
   * added better support of older Shells
   * fixed solaris version detection
@@ -54,11 +54,14 @@ pofig v1.2
   * improved debian version detection
   * fixed arch detection on macos
 
-pofig v1.3
+pofig 1.3
   * added support of Pidora Linux
   * added support of Tru64 UNIX
 
-pofig v1.4
+pofig 1.4
   * removed support of OS: VMWare ESXi, Haiku, LynxOS, MKS Toolkit, MorphOS, Try64 UNIX, IBM z/VM
   * removed support of architectures: ARC, Atmel AVR, ETRAX CRIS, Fujitsu FR-V, Qualcomm Hexagon, M32R, OpenRISC 1000, SuperH, Tilera Tile, Tensilica Xtensa, IBM z/Architecture
+
+pofig 1.4.1
+  * minor changes in help and version output
 
